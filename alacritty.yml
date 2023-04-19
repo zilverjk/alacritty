@@ -63,3 +63,9 @@ colors:
     - { index: 17, color: "0xdb4b4b" }
 
 theme: Tokyonight_Night
+
+mouse:
+  hints: true
+
+logging:
+  path: ~/logs/alacritty.log
