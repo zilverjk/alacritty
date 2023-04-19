@@ -4,8 +4,12 @@ live_config_reload: true
 env:
   TERM: xterm-256color
 
-# shell:
-#   program: /bin/zsh
+shell:
+  program: /bin/zsh
+  args:
+    - -l
+    - -c
+    - "tmux"
 
 window:
   opacity: 0.80 # to create a transparent background
@@ -69,3 +73,9 @@ mouse:
 
 logging:
   path: ~/logs/alacritty.log
+
+selection:
+  semantic_escape_chars: ',│`|:"'' ()[]{}<>'
+
+  # When set to `true`, selected text will be copied to the primary clipboard.
+  save_to_clipboard: false
