@@ -9,7 +9,7 @@ shell:
   args:
     - -l
     - -c
-    - "tmux attach"
+    - "tmux"
 
 window:
   opacity: 0.80 # to create a transparent background
