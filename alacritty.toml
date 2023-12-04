@@ -6,7 +6,7 @@ TERM = "xterm-256color"
 
 [shell]
 program = "/bin/zsh"
-args = [ "-l", "-c", "tmux" ]
+args = [ "-l", "-c", "tmux attach-session -t" ]
 
 [window]
 opacity = 0.8
