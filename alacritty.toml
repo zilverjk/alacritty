@@ -4,9 +4,9 @@ live_config_reload = true
 [env]
 TERM = "xterm-256color"
 
-[shell]
-program = "/bin/zsh"
-args = [ "-l", "-c", "tmux attach-session -t" ]
+# [shell]
+# program = "/bin/zsh"
+# args = [ "-l", "-c", "tmux attach-session -t" ]
 
 [window]
 opacity = 0.8
@@ -21,16 +21,28 @@ startup_mode = "Fullscreen"
 [font]
 size = 13
 
+  # [font.normal]
+  # family = "JetBrainsMono Nerd Font"
+  # style = "Bold"
+  #
+  # [font.italic]
+  # family = "JetBrainsMono Nerd Font Mono"
+  # style = "Bold Italic"
+  #
+  # [font.bold_italic]
+  # family = "JetBrainsMono Nerd Font Mono"
+  # style = "Bold Italic"
+
   [font.normal]
-  family = "JetBrainsMono Nerd Font"
+  family = "MonoLisaNerdFontCompleteMono Nerd Font"
   style = "Bold"
 
   [font.italic]
-  family = "JetBrainsMono Nerd Font Mono"
+  family = "MonoLisaNerdFontCompleteMono Nerd Font"
   style = "Bold Italic"
 
   [font.bold_italic]
-  family = "JetBrainsMono Nerd Font Mono"
+  family = "MonoLisaNerdFontCompleteMono Nerd Font"
   style = "Bold Italic"
 
 [colors]
