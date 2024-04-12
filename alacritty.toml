@@ -9,7 +9,6 @@ TERM = "xterm-256color"
 # args = [ "-l", "-c", "tmux attach-session -t" ]
 
 [window]
-opacity = 0.8
 dynamic_padding = false
 decorations = "buttonless"
 startup_mode = "Fullscreen"
@@ -20,6 +19,10 @@ startup_mode = "Fullscreen"
 
 [font]
 size = 13
+
+# normal = { family = "BlexMono Nerd Font Mono", style = "Bold" }
+# italic = { family = "BlexMono Nerd Font Mono", style = "Bold Italic" }
+# bold_italic = { family = "BlexMono Nerd Font Mono", style = "Bold Italic" }
 
   # [font.normal]
   # family = "JetBrainsMono Nerd Font"
@@ -33,17 +36,45 @@ size = 13
   # family = "JetBrainsMono Nerd Font Mono"
   # style = "Bold Italic"
 
-  [font.normal]
-  family = "MonoLisaNerdFontCompleteMono Nerd Font"
-  style = "Bold"
+ normal = { family = "MonoLisaNerdFontCompleteMono Nerd Font", style = "Bold" }
+ italic = { family = "MonoLisaNerdFontCompleteMono Nerd Font", style = "Bold Italic" }
+ bold_italic = { family = "MonoLisaNerdFontCompleteMono Nerd Font", style = "Bold Italic" }
 
-  [font.italic]
-  family = "MonoLisaNerdFontCompleteMono Nerd Font"
-  style = "Bold Italic"
+  # [font.normal]
+  # family = "MonoLisaNerdFontCompleteMono Nerd Font"
+  # style = "Bold"
+  #
+  # [font.italic]
+  # family = "MonoLisaNerdFontCompleteMono Nerd Font"
+  # style = "Bold Italic"
+  #
+  # [font.bold_italic]
+  # family = "MonoLisaNerdFontCompleteMono Nerd Font"
+  # style = "Bold Italic"
 
-  [font.bold_italic]
-  family = "MonoLisaNerdFontCompleteMono Nerd Font"
-  style = "Bold Italic"
+  # [font.normal]
+  # family = "BlexMono Nerd Font Mono"
+  # style = "Bold"
+  #
+  # [font.italic]
+  # family = "BlexMono Nerd Font Mono"
+  # style = "Bold Italic"
+  #
+  # [font.bold_italic]
+  # family = "BlexMono Nerd Font Mono"
+  # style = "Bold Italic"
+
+  # [font.normal]
+  # family = "Mononoki Nerd Font"
+  # style = "Bold"
+  #
+  # [font.italic]
+  # family = "Mononoki Nerd Font"
+  # style = "Bold Italic"
+  #
+  # [font.bold_italic]
+  # family = "Mononoki Nerd Font"
+  # style = "Bold Italic"
 
 [colors]
   [colors.primary]
