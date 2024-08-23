@@ -36,20 +36,24 @@ size = 13
   # family = "JetBrainsMono Nerd Font Mono"
   # style = "Bold Italic"
 
- normal = { family = "MonoLisaNerdFontCompleteMono Nerd Font", style = "Bold" }
- italic = { family = "MonoLisaNerdFontCompleteMono Nerd Font", style = "Bold Italic" }
+ normal = { family = "MonoLisaNerdFontCompleteMono Nerd Font", style = "Regular" }
+ italic = { family = "MonoLisaNerdFontCompleteMono Nerd Font", style = "Italic" }
  bold_italic = { family = "MonoLisaNerdFontCompleteMono Nerd Font", style = "Bold Italic" }
 
+ # normal = { family = "Liga SFMono Nerd Font", style = "Bold" }
+ # italic = { family = "Liga SFMono Nerd Font", style = "Bold Italic" }
+ # bold_italic = { family = "Liga SFMono Nerd Font", style = "Bold Italic" }
+
   # [font.normal]
-  # family = "MonoLisaNerdFontCompleteMono Nerd Font"
+  # family = "Liga SFMono Nerd Font"
   # style = "Bold"
   #
   # [font.italic]
-  # family = "MonoLisaNerdFontCompleteMono Nerd Font"
+  # family = "Liga SFMono Nerd Font"
   # style = "Bold Italic"
   #
   # [font.bold_italic]
-  # family = "MonoLisaNerdFontCompleteMono Nerd Font"
+  # family = "Liga SFMono Nerd Font"
   # style = "Bold Italic"
 
   # [font.normal]
